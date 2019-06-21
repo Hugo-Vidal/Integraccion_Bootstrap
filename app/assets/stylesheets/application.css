@@ -10,14 +10,15 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  
- *=require style
- *=require bootstrap.css.erb
- *=require font-awesome
+
+ *=require bootstrap
+ *=require font-awesome.css
+ *=require style2
  *=require animate
  *=require magnific-popup
  *=require ultm
  *=require form-elements
- *=require style2
+ *=require style
  *=require media-queries
 
  *= require_tree .

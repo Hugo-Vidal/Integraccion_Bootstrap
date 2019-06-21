@@ -34,10 +34,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $.backstretch([
-                  "<%= asset_path("js/1.jpg") %>",
-                  "<%= asset_path("2.jpg") %>",
-                  "<%= asset_path("3.jpg") %>"
+	$.backstretch([
+                  "<%= asset_path('backgrounds/1.jpg')%>",
+                  "<%= asset_path('backgrounds/2.jpg')%>",
+                  "<%= asset_path('backgrounds/3.jpg')%>"
                 ], {duration: 3000, fade: 750});
     // pause slideshow
     $.backstretch('pause');
